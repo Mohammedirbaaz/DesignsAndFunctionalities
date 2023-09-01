@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(53, 53, 53);
+    font-family: Sans-serif;
+    font-size: small;
+}
+.header{
+    width: auto;
+    min-height: 50px;
+    position: relative;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row-reverse ;
+    color: white;
+}
+.subhead{
+    position: relative;
+    margin:3.5vh 0.5vw;
+}
+.menus{
+    margin: 3vh 1vw;
+}
+.mydp{
+    margin: -1vh 0.5vw;
+    width: 70%;
+    height: 5vh;
+    border-radius: 50%;
+}
+
+/* google main */
+
+.googlemain{
+    position: relative;
+    width: auto;
+    top: 15vh;
+    font-weight:medium;
+    font-size: 600%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: beige; */
+    text-align: center;
+}
+/* search */
+
+.searchbox{
+    position: relative;
+    width: 40%;
+    top: 22vh;
+    margin:auto;
+    /* background-color: gray; */
+}
+.searchicon,.micicon{
+    position: relative;
+    width: 3%;
+    height: 3vh;
+    right: -4px;
+    display: inline;
+    padding: 3% 3% 3% 3%;
+    margin-right: 0%;
+    top: 0.5px;
+    background-color: white;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+}
+.micicon{
+    left:-4px;
+    border-top-left-radius:0%;
+    border-bottom-left-radius:0%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.searchinput{
+    position: relative;
+    width: 80%;
+    height: 8.1vh;
+    margin-left: 0%;
+    top: -20px;
+    background-color: white;
+    font-size: larger;
+    outline: none;
+    border: none;
+}
+/* recetn web */
+
+.recentweb{
+    position: relative;
+    width: 30%;
+    height: 40vh;
+    margin: auto;
+    top: 22vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.cardweb{
+    position: relative;
+    width: 25%;
+    height: 17vh;
+    /* margin: 5px; */
+    /* background-color: gainsboro; */
+    color:white;
+    border-radius: 3px;
+    /* flex: 1 0 21% */
+}
+.cardimg{
+    position: relative;
+    margin:15% 10%;
+    border-radius: 50%;
+    border:1vw solid rgb(31, 30, 30);
+}
+.cardtitle::first-letter{
+    text-transform: capitalize;
+}
+.cardweb:hover{
+    background-color: gray;
+}
+.cardtitle{
+    position: relative;
+}
+@media  only screen and (max-width:770px){
+    .recentweb{
+        width: 50%;
+    }
+}
+@media  only screen and (max-width:495px){
+    .recentweb{
+        width: 60%;
+    }
+    .cardtitle{
+        font-size: 10px;
+    }
+}

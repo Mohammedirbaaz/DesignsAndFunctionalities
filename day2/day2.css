@@ -1,0 +1,37 @@
+*{
+    background-color:rgb(218, 218, 218);
+    margin:0px;
+    padding:0px;
+}
+.parent{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+    width: 10vw;
+    height: 100px;
+    background-color: rgb(13, 149, 104);
+    border-radius: 10px;
+    margin: 10px;
+}
+.box3{
+    width: 100vw;
+    height: 1vh;
+}
+@media only screen and (max-width: 700px){
+    .box{
+        background-color: red;
+        height: 62px;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .box{
+        background-color: blue;
+        height: 50px;
+    }
+
+}
