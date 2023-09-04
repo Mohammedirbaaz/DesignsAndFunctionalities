@@ -36,6 +36,7 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform: rotateX(180deg);
+    
     background-color: rgb(180, 180, 180);
     color: white;
     
